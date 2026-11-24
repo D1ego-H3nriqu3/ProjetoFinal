@@ -34,10 +34,10 @@ let curriculoSchema = new mongoose.Schema({
     formacao: {
         type: String,
         enum: {
-            values: ["Ensino medio incompleto", "Ensino medio completo", "Graduando",  "Ensino Superior completo"],
+            values: ["Ensino Médio incompleto", "Ensino Médio completo", "Graduando",  "Ensino Superior completo"],
             message: "{VALUE} não é uma formação válida!"
         },
-        default: "Ensino medio completo"
+        default: "Ensino Médio completo"
     },
     vaga: {
         type: String,
