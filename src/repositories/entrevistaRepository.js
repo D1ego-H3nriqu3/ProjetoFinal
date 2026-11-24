@@ -20,6 +20,6 @@ export async function removerPorId(id) {
     return await Entrevista.findByIdAndDelete(id);
 }
 
-export async function encontrarEntrevistaVaga(id) {
+export async function encontrarEntrevistaVaga(vaga) {
     return await Entrevista.find({vagaAplicada: vaga})
 }
