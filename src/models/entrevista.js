@@ -69,6 +69,6 @@ let entrevistaSchema = new mongoose.Schema({
     timestamps: true
 }) 
 
-let Entrevista = mongoose.model("Entrevista", entrevistaSchema)
+const Entrevista = mongoose.model("Entrevista", entrevistaSchema)
 
 export default Entrevista

@@ -57,6 +57,6 @@ let curriculoSchema = new mongoose.Schema({
     timestamps: true
 })
 
-let Curriculo = mongoose.model("Curriculo", curriculoSchema)
+const Curriculo = mongoose.model("Curriculo", curriculoSchema)
 
 export default Curriculo

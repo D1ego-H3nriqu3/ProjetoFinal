@@ -76,6 +76,6 @@ let respostasSchema = new mongoose.Schema({
     timestamps: true
 })
 
-let Respostas = mongoose.model("Respostas", respostasSchema)
+const Respostas = mongoose.model("Respostas", respostasSchema)
 
 export default Respostas
